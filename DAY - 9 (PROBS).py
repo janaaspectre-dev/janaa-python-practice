@@ -42,8 +42,11 @@ print(x)
 
 
 #7)Access first and last element.
-lst = list(input())
-lst.insert(1,)
+lst = [10,20,30,40,50]
+first = lst[0]
+last = lst[-1]
+print("first:",first)
+print("last:",last)
 
 
 
@@ -52,7 +55,7 @@ lst = [1,2,3,4,5]
 y=max(lst)
 x=min(lst)
 print("max=",y)
-print("min=",x)"""
+print("min=",x)
 
 
 
@@ -66,6 +69,11 @@ print(x)
 
 
 #10)Count how many times a number appears.
+numbers = [1, 2, 3, 2, 4, 2, 5]
+x = 2
+count = numbers.count(x)
+print(x, "appears", count, "times")"""
+
 
 
 
